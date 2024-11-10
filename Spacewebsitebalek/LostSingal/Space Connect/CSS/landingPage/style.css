@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@font-face {
+  font-family: 'AlphaCentauri Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AlphaCentauri Medium'), url('../../fonts/Alphacentauri-MVY4p.woff') format('woff');
+  }
+
+*{
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Roboto";
+  list-style: none;
+  box-sizing: border-box;
+  background: #000;
+  height: auto;
+  
+}
+
+.wrapper{
+  position: absolute;
+display: flex;
+flex-flow: column wrap;
+height: 275vh;
+width: 100%;
+overflow: hidden;
+}
+
+
+.wrapper {
+  position: relative; /* Change to relative */
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  overflow: hidden;
+}
+#section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+#sectiontwo {
+  padding: 50px 20px;
+  background: #111; /* Dark background for space theme */
+  color: #fff;
+  text-align: center;
+}
+
+.about-project h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-project p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+/* Styles for the About section */
+#sectiontwo {
+  padding: 60px 20px;
+  background: #000; /* Matches the dark space theme */
+  color: #fff;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.about-project h2 {
+  font-size: 2.5em;
+  color: #00ffe6; /* Highlight color for the title */
+  margin-bottom: 20px;
+}
+
+.about-project p {
+  font-size: 1.2em;
+  color: #cccccc;
+  margin-bottom: 50px;
+}
+
+/* Service Cards Container */
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  padding: 25px;
+  width: 300px;
+  border: 1px solid rgb(0, 255, 230);
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgb(0, 255, 230);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #00ffe6;
+}
+
+.service-card p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #cccccc;
+}
+
+
+
+
+
+

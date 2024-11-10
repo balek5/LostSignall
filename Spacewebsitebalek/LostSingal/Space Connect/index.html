@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Lost Signal</title>
+  <link rel="shortcut icon" href="./images/rocket-icon.png" type="image/png">
+  <link rel="stylesheet" href="./CSS/landingPage/style.css" />
+  <link rel="stylesheet" href="./CSS/common/navBar.css" />
+  <link rel="stylesheet" href="./CSS/landingPage/parallaxScene.css" />
+  <link rel="stylesheet" href="./CSS/landingPage/slider.css" />
+  <link rel="stylesheet" href="./CSS/landingPage/carousel.css" />
+  <link rel="stylesheet" href="./CSS/landingPage/pushable-button.css" />
+  <link rel="stylesheet" href="./CSS/common/cartBox.css" />
+  <link rel="stylesheet" href="./CSS/common/userBox.css" />
+  <link rel="stylesheet" href="./CSS/common/bg-animation.css" />
+  <link rel="stylesheet" href="./CSS/common/loader.css" />
+  <link rel="stylesheet" href="./CSS/common/footer.css" />
+</head>
+
+<body onload="myFunction()">
+
+<div id="loader-wrapper" class="load-wrapper" style="display:flex;">
+  <div class="loader"></div>
+</div>
+
+<nav>
+  <div class="logo"><a href="#">Lost Signal</a></div>
+  <ul id="navbar-links">
+    <li><a class="navbar-a1" href="#">Home</a></li>
+    <li><a class="navbar-a1" href="./aboutUs.html">Download</a></li>
+  </ul>
+</nav>
+
+
+<section id="section" class="screen">
+  <div id="scene">
+    <div data-depth="0.1" class="bg">
+      <img src="images/Landingpageimagesnigga/background.png" alt="" />
+    </div>
+    <div data-depth="0.2" class="rock1">
+      <img src="images/Landingpageimagesnigga/rock.png" alt="" />
+    </div>
+    <div data-depth="1.2" class="earth">
+      <img src="images/Landingpageimagesnigga/earth.png" alt="" />
+    </div>
+    <div data-depth="0.1" class="text">
+      <section id="sectionone" class="screen home-section">
+        <div class="lost-signal">
+         <h1>Lost Signal</h1>
+        </div>
+      </section>
+    </div>
+    <div data-depth="0.4" class="mid">
+      <img src="images/Landingpageimagesnigga/mid.png" alt="" />
+    </div>
+    <div data-depth="0.1" class="fore">
+      <img src="images/Landingpageimagesnigga/foreground.png" alt="" />
+    </div>
+  </div>
+</section>
+<section id="sectiontwo" class="screen">
+  <div class="about-project">
+    <h2>About This Project</h2>
+    <p>This project is designed to showcase the beauty of space through our unique gameplay.</p>
+
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Programing</h3>
+        <p>Daniel Poliaček</p>
+      </div>
+      <div class="service-card">
+
+        <h3>Graphics</h3>
+        <p>Lukaš Balek</p>
+      </div>
+      <div class="service-card">
+
+        <h3>UI/Design</h3>
+        <p>Jakub Kadela</p>
+      </div>
+      <div class="service-card">
+
+        <h3>Sounds</h3>
+        <p>Matej Vyšinsky</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="./JavaScript/index.js" type="text/javascript"></script>
+<script src="./JavaScript/loader.js" type="text/javascript"></script>
+<script src="./JavaScript/userBox.js" type="text/javascript"></script>
+
+</body>
+
+</html>
